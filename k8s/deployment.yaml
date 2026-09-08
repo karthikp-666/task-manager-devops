@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: task-manager
-          image: task-manager:1.0
+          image: task-manager:2.0
           imagePullPolicy: Never
           ports:
             - containerPort: 3000
